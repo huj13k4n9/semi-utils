@@ -1,39 +1,38 @@
 base:
   alternative_bold_font: ./fonts/Roboto-Medium.ttf
   alternative_font: ./fonts/Roboto-Regular.ttf
-  bold_font: ./fonts/AlibabaPuHuiTi-2-85-Bold.otf
+  bold_font: ./fonts/Inter-Bold.ttf
   bold_font_size: 1
-  font: ./fonts/AlibabaPuHuiTi-2-45-Light.otf
+  font: ./fonts/Inter-Light.ttf
   font_size: 1
   input_dir: ./input
   output_dir: ./output
   quality: 100
 global:
   focal_length:
-    use_equivalent_focal_length: false
+    use_equivalent_focal_length: true
   padding_with_original_ratio:
     enable: false
   shadow:
     enable: false
   white_margin:
     enable: true
-    width: 3
+    width: 2
 layout:
   background_color: '#ffffff'
   elements:
     left_bottom:
       color: '#757575'
       is_bold: false
-      name: Model
+      name: LensModel
     left_top:
       color: '#212121'
       is_bold: true
-      name: LensModel
+      name: Model
     right_bottom:
       color: '#757575'
       is_bold: false
       name: Datetime
-      value: Photo by NONE
     right_top:
       color: '#212121'
       is_bold: true
@@ -85,6 +84,9 @@ logo:
     ricoh:
       id: RICOH
       path: ./logos/ricoh.png
+    samsung:
+      id: SAMSUNG
+      path: ./logos/samsung.png
     sony:
       id: SONY
       path: ./logos/sony.png
